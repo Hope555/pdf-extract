@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 
 from pdf_reader import extract_native_text, is_scanned_pdf
@@ -5,8 +6,8 @@ from ocr_reader import extract_text_ocr
 from anchor_extractor import extract_fields
 from config import INPUT_FOLDER, OUTPUT_FOLDER
 
-
-OUTPUT_FILE = os.path.join(OUTPUT_FOLDER, "final_report.txt")
+timestamp_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+OUTPUT_FILE = os.path.join(OUTPUT_FOLDER, f"{timestamp_str}.txt")
 
 
 def process_pdf(pdf_path):
