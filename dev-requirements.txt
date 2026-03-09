@@ -1,0 +1,11 @@
+numpy
+opencv
+packaging
+pdf2image
+pillow
+pip
+PyMuPDF
+pytesseract
+python
+six
+tzdata

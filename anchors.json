@@ -1,0 +1,21 @@
+{
+  "invoice_number": [
+    "Invoice Number",
+    "Invoice No",
+    "Invoice #"
+  ],
+  "date": [
+    "Date",
+    "Invoice Date"
+  ],
+  "total": [
+    "Total",
+    "Amount Due",
+    "Total Amount"
+  ],
+  "customer_name": [
+    "Customer",
+    "Customer Name",
+    "Bill To"
+  ]
+}
